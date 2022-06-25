@@ -23,7 +23,7 @@
 .Rtmplt__header-cols{
     display: flex;
     color: #fff;
-    column-gap: 100px;
+    column-gap: 1000px;
 }
 
 .Rtmplt__header-cols>*{
