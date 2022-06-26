@@ -22,8 +22,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='Rtmplt__navbar-sign'>
-          <p>Sign in</p>
-          <button type="button">Sign up</button>
+          <p>Personal</p>
+          <button type="button">Bussiness</button>
       </div>
       <div className='Rtmplt__navbar-menu'>
           {

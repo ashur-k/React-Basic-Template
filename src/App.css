@@ -5,9 +5,25 @@
     scroll-behavior: smooth;
 }
 
+.App {
+  min-height: 100%;
+}
+
 body {
-    background: var(--color-bg)
+    background: var(--color-bg);
+    background-image: url("https://images.unsplash.com/photo-1647054109438-515783a2c2c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    /* background-origin: content-box; */
+    background-position: top, center,bottom;
+    background-size: cover;
+    background-attachment: fixed;
   }
+
+  .overlay {
+    background: rgba(15, 15, 15, 0.7);
+    overflow: hidden;
+    height: 100%;
+   }
 
 a {
     color: unset;

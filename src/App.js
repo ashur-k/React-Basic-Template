@@ -7,7 +7,8 @@ import './App.css';
 const App = () => {
     return (
         <div className='App'>
-            <div className='gradient__bg'>
+            <div className='overlay'>
+                {/* deleted class gradient__bg */}
                 <Navbar />
                 <Header />
                 <Footer />
