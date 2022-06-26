@@ -7,17 +7,18 @@ import ai from '../../assests/ai.png';
 const Header = () => {
 
   const component_values = [
-    "React component 1 here",
-    "React component 2 here",
-    "React component 3 here",
-    "React component 4 here",
-    "React component 5 here",
-    "React component 6 here",
-    "React component 7 here"
+    "React component 1 here respect it",
+    "React component 2 here respect it",
+    "React component 3 here respect it",
+    "React component 4 here respect it",
+    "React component 5 here respect it",
+    "React component 6 here respect it",
+    "React component 7 here respect it"
   ]
 
   return (
     <div className="gpt3__header section__padding" id="home">
+      
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
           Bussisness management for SMB
@@ -44,9 +45,18 @@ const Header = () => {
       
 
       <div className="gpt3__header-image">
+        <div className='comp-start'>
+          <h3>
+            Do you run a bussisness between 1 to 50 people?
+          </h3>
+          <p>
+            Our solution is for you?
+          </p>
+        </div>
+        
       {
         component_values.map(value => (
-          <p>{value}</p>
+          <p className='comp'>{value}</p>
           ))
       }
       </div>        
